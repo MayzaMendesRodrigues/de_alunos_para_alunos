@@ -1,0 +1,26 @@
+.setup{
+  margin: 0 auto;
+}
+.setup__lists{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 596px);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+}
+
+.setup__title{
+  font-size: 40px;
+}
+
+.setup__paragraph{
+  font-size: 40px ;
+
+}
+.setup__img {
+  width: 596px;
+  height: 362px;
+  border-radius: 50px;
+}
+
+

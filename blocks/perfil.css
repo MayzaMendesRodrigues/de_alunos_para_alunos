@@ -1,0 +1,50 @@
+.perfil {
+  max-width:1150px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 250px;
+}
+
+.perfil__content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows:auto 460px auto ;
+  grid-template-areas:
+   "avatar title"
+   "avatar description"
+   "phase  description"
+
+}
+
+.perfil__phase{
+  width: 489px;
+  color: #FFDE00;
+  text-align: center;
+}
+.perfil__avatar {
+  grid-area: avatar;
+}
+
+.perfil__name {
+  font-size: 40px;
+  grid-area: title;
+}
+
+.perfil__title {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.perfil__paragraph {
+  font-size: 20px;
+}
+.perfil__descrption{
+  grid-area: description;
+}
+
+.perfil__phase{
+  grid-area: phase;
+}
+
+.perfil__avatar-efect{
+}
