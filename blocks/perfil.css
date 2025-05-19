@@ -3,6 +3,7 @@
   width: 100%;
   margin: 0 auto;
   padding-bottom: 250px;
+  padding-top: 136px;
 }
 
 .perfil__content{
@@ -23,6 +24,7 @@
 }
 .perfil__avatar {
   grid-area: avatar;
+  position: relative;
 }
 
 .perfil__name {
@@ -45,6 +47,8 @@
 .perfil__phase{
   grid-area: phase;
 }
-
-.perfil__avatar-efect{
+.perfil__arrow{
+  position: absolute;
+  left: 550px;
+  top: 250px;
 }
