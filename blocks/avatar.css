@@ -1,0 +1,13 @@
+.avatar__lists{
+list-style: none;
+display: flex;
+max-width: 1244px;
+margin: 0 auto;
+}
+.avatar__list{
+  margin-left: -125px;
+}
+
+.avatar__list:first-of-type{
+  margin-left: 0;
+}

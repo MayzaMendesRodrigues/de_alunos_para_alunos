@@ -6,6 +6,7 @@
   padding-top: 136px;
 }
 
+
 .perfil__content{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -23,8 +24,6 @@
   text-align: center;
 }
 .perfil__avatar {
-  grid-area: avatar;
-  position: relative;
 }
 
 .perfil__name {
@@ -49,6 +48,11 @@
 }
 .perfil__arrow{
   position: absolute;
-  left: 550px;
-  top: 250px;
+  left: 15git px;
+  top: -100px;
+}
+.perfil__avatar_content{
+  position: relative;
+    grid-area: avatar;
+
 }
