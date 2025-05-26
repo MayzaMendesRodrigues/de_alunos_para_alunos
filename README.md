@@ -49,13 +49,12 @@ Não sabe por onde começar? Aqui vão algumas ideias (mas sinta-se livre pra br
 - Seção de comentários e curtidas em cada post
 - Filtro por linguagem (JS, Python, etc.)
 - Página de “favoritos do mês”
-- Dark mode bonitão 🌙
 
 ### 📈 Data Science / Análise de Dados
 
 - Ranking dos recursos mais indicados
 - Dashboard com gráficos legais (tipo Spotify Wrapped dos devs)
-- Insights sobre quais linguagens têm mais recomendações
+- Insights sobre quais documentações têm mais recomendações
 
 ### 🧪 QA / Testes
 
@@ -90,11 +89,6 @@ E você já faz parte disso.
 
 ---
 
-**Vamos nessa?**  
-Deixa seu fork e bora construir algo incrível juntos! 🚀🔥
-
----
-
 ## 💼 Contribuir aqui fortalece o seu currículo!
 
 Você sabia que ser colaborador em projetos open source pode fazer a diferença **no seu portfólio**?
@@ -115,8 +109,13 @@ E mais: o link do seu pull request pode (e deve!) estar no seu currículo ou no 
 Se você contribuiu com esse projeto, **coloque seu nome aqui com orgulho**!
 
 
-- [Seu Nome](link-do-perfil-ou-portfolio)
-- [Mayza Ynara](https://github.com/mayzaynara)
-- [Seu nome aqui! ✨]
 
+- Mayza Ynara! ✨
+- [Linkedin](https://www.linkedin.com/in/mayza-ynara-mendes-rodrigues/)
+- [GitHub](https://github.com/MayzaMendesRodrigues)
+---
+
+- Pedro Henrique Hendges  ! ✨
+- [Linkedin](https://www.linkedin.com/in/phendges7/)
+- [GitHub](https://github.com/phendges7)
 
