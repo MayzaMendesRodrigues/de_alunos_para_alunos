@@ -93,3 +93,30 @@ E você já faz parte disso.
 **Vamos nessa?**  
 Deixa seu fork e bora construir algo incrível juntos! 🚀🔥
 
+---
+
+## 💼 Contribuir aqui fortalece o seu currículo!
+
+Você sabia que ser colaborador em projetos open source pode fazer a diferença **no seu portfólio**?
+
+Ao contribuir com esse repositório, você mostra que:
+
+✅ Sabe usar Git e GitHub na prática  
+✅ Trabalha bem em equipe (mesmo remotamente)  
+✅ Tem iniciativa para aprender e ensinar  
+✅ Se envolve com a comunidade tech
+
+E mais: o link do seu pull request pode (e deve!) estar no seu currículo ou no seu LinkedIn. Ele mostra muito mais do que palavras: mostra atitude. 💪
+
+---
+
+## ✍️ Canal de Assinatura – Nossos Colaboradores 💙
+
+Se você contribuiu com esse projeto, **coloque seu nome aqui com orgulho**!
+
+
+- [Seu Nome](link-do-perfil-ou-portfolio)
+- [Mayza Ynara](https://github.com/mayzaynara)
+- [Seu nome aqui! ✨]
+
+
