@@ -1,0 +1,13 @@
+.main {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(255, 222, 0, 1) 100%
+  );
+  background-attachment: fixed;
+  padding: 100px;
+}
+
+.main__student-profile {
+  padding: 2rem;
+}

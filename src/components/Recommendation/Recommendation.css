@@ -1,0 +1,19 @@
+.recommendations__item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.recommendations__item img {
+  width: 100%;
+  aspect-ratio: 5/4; /* Mantém a proporção do vídeo */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff; /* Cor dos botões de navegação */
+}
+
+.swiper-pagination-bullet-active {
+  background: transparent; /* Cor do paginador ativo */
+}
