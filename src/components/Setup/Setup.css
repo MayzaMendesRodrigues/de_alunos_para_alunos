@@ -1,0 +1,19 @@
+.setup__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(6, 0.5fr);
+  padding: 0;
+}
+
+.setup__title {
+  font-size: 40px;
+}
+
+.setup__paragraph {
+  font-size: 40px;
+}
+.setup__img {
+  width: 596px;
+  height: 362px;
+  border-radius: 50px;
+}
