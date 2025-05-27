@@ -33,7 +33,7 @@ const StudentProfile = () => {
   if (error) return <div className="error">{error}</div>;
 
   return (
-    <section className="main__student-profile">
+    <section className="student-profile">
       <StudentIntro student={student} />
       <StudentSetup />
     </section>

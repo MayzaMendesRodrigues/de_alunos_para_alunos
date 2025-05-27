@@ -1,19 +1,18 @@
-import StudentProfile from "../../pages/StudentProfile/StudentProfile.jsx";
 import { students } from "../../utils/students/students.js";
 import { useNavigate } from "react-router-dom";
 
-const Setup = () => {
+const avatarList = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="setup">
-      <ul className="setup__list">
+    <section className="students">
+      <ul className="students__list">
         {students.map((student, index) => (
-          <li key={index} className="setup__list-item">
+          <li key={index} className="students__item">
             <img
               src={student.headShotSrc}
               alt={`${student.nome}`}
-              className="setup__list-item-headshot"
+              className="students__headshot"
               onClick={() =>
                 navigate(`/students/${student.id}`, { state: { student } })
               }
@@ -25,4 +24,4 @@ const Setup = () => {
   );
 };
 
-export default Setup;
+export default avatarList;
