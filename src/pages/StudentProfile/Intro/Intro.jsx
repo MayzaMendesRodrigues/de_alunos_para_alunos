@@ -9,21 +9,26 @@ const FormattedDescription = ({ description }) => {
         switch (part.type) {
           case "highlight":
             return (
-              <h2 key={index} className="description-highlight">
+              <h2
+                key={index}
+                className="student-profile__description-highlight"
+              >
                 {part.text}
               </h2>
             );
           case "paragraph":
             return (
-              <p key={index} className="description-paragraph">
+              <p key={index} className="student-profile__description-paragraph">
                 {part.text}
               </p>
             );
           case "break":
-            return <div key={index} className="description-break" />;
+            return (
+              <div key={index} className="student-profile__description-break" />
+            );
           default:
             return (
-              <p key={index} className="description-text">
+              <p key={index} className="student-profile__description-text">
                 {part.text}
               </p>
             );
