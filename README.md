@@ -39,7 +39,7 @@ E olha só: muitas linguagens, frameworks e empresas incríveis só cresceram po
 
 ---
 
-## 💡 Ideias pra colaborar (mais o ceu e o limite) 
+## 💡 Ideias pra colaborar (mais o ceu e o limite)
 
 Não sabe por onde começar? Aqui vão algumas ideias (mas sinta-se livre pra brilhar com as suas! 🌟)
 
@@ -64,14 +64,13 @@ Não sabe por onde começar? Aqui vão algumas ideias (mas sinta-se livre pra br
 
 ---
 
-
 ## 🛠️ Como contribuir
 
-1. Dá um ⭐ neste repositório se curtir o projeto  
-2. Clique em **Fork** (lá no canto superior direito)  
-3. Clone o repositório pro seu computador  
-4. Crie uma branch com a sua feature ou melhoria  
-5. Faça o commit e abra um Pull Request explicando sua ideia!  
+1. Dá um ⭐ neste repositório se curtir o projeto
+2. Clique em **Fork** (lá no canto superior direito)
+3. Clone o repositório pro seu computador
+4. Crie uma branch com a sua feature ou melhoria
+5. Faça o commit e abra um Pull Request explicando sua ideia!
 6. Pronto! Você já está participando 🙌
 
 ---
@@ -108,14 +107,12 @@ E mais: o link do seu pull request pode (e deve!) estar no seu currículo ou no 
 
 Se você contribuiu com esse projeto, **coloque seu nome aqui com orgulho**!
 
-
-
 - Mayza Ynara! ✨
 - [Linkedin](https://www.linkedin.com/in/mayza-ynara-mendes-rodrigues/)
 - [GitHub](https://github.com/MayzaMendesRodrigues)
+
 ---
 
-- Pedro Henrique Hendges  ! ✨
+- Pedro Henrique Hendges ! ✨
 - [Linkedin](https://www.linkedin.com/in/phendges7/)
 - [GitHub](https://github.com/phendges7)
-

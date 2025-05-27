@@ -1,0 +1,32 @@
+.nav {
+  height: 200px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+.nav__logo {
+  width: 275px;
+  height: 102px;
+}
+
+.nav__lists {
+  display: flex;
+  gap: 120px;
+  list-style: none;
+  font-size: 24px;
+}
+.nav__list {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+.nav__button {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
