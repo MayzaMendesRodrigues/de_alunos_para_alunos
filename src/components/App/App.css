@@ -4,4 +4,11 @@ body {
   color: #fff;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(255, 222, 0, 1) 100%
+  );
+  background-attachment: fixed;
 }

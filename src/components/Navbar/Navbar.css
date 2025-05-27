@@ -1,12 +1,9 @@
 .nav {
-  height: 200px;
+  max-width: 1280px;
   width: 100%;
-  background-color: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px;
-  box-sizing: border-box;
 }
 
 .nav__logo {

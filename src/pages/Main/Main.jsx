@@ -1,5 +1,5 @@
 import Recommendation from "../../components/Recommendation/Recommendation";
-import Setup from "../../components/Setup/Setup";
+import Setup from "../../components/AvatarList/AvatarList";
 
 const Main = () => {
   return (
