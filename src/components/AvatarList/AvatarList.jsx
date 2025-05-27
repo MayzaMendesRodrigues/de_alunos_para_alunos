@@ -13,9 +13,10 @@ const avatarList = () => {
               src={student.headShotSrc}
               alt={`${student.nome}`}
               className="students__headshot"
-              onClick={() =>
-                navigate(`/students/${student.id}`, { state: { student } })
-              }
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: "smooth" }); // Isso sobe suavemente
+                navigate(`/students/${student.id}`, { state: { student } });
+              }}
             />
           </li>
         ))}

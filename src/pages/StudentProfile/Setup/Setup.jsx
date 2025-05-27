@@ -17,20 +17,23 @@ const StudentSetup = () => {
   ];
 
   const handleClick = (type) => {
-    navigate(`/student/${id}/${type}`);
+    navigate(`/students/${id}/${type}`);
   };
 
   return (
     <div className="student-profile__setup">
       {resources.map((res, index) => (
         <div
-          className="setup__item"
+          className="student-profile__setup-item"
           key={index}
           onClick={() => handleClick(res.type)}
-          style={{ cursor: "pointer" }}
         >
-          <img src={res.img} alt={res.label} className="setup__thumbnail" />
-          <p className="setup__label">{res.label}</p>
+          <img
+            src={res.img}
+            alt={res.label}
+            className="student-profile__setup-thumbnail"
+          />
+          <p className="student-profile__setup-label">{res.label}</p>
         </div>
       ))}
     </div>

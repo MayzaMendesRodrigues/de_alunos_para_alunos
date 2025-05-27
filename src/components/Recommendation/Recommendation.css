@@ -4,9 +4,11 @@
   flex-direction: column;
 }
 
-.recommendations__item img {
+.recommendations__item iframe {
   width: 100%;
-  aspect-ratio: 5/4; /* Mantém a proporção do vídeo */
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+  border: none; /* Mantém a proporção do vídeo */
 }
 
 .swiper-button-prev,

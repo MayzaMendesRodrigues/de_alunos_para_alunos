@@ -29,8 +29,9 @@ const StudentProfile = () => {
     }
   }, [id]);
 
-  if (loading) return <div className="loading">Carregando...</div>;
-  if (error) return <div className="error">{error}</div>;
+  if (loading)
+    return <div className="student-profile__loading">Carregando...</div>;
+  if (error) return <div className="student-profile__error">{error}</div>;
 
   return (
     <section className="student-profile">

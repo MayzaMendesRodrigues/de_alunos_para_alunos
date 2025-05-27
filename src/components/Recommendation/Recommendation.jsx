@@ -4,16 +4,12 @@ import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import { videos } from "../../utils/videos";
+import { videos } from "../../utils/content/videos";
 
 const Recommendation = () => {
-  // FUNCTION - extracting video ID from URL
-  const getVideoId = (url) => {
-    const regExp =
-      /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
-    const match = url.match(regExp);
-    return match && match[2].length === 11 ? match[2] : null;
-  };
+  // FUNCTION - filtering recommended videos
+  const recommendedVideos = videos.filter((video) => video.isRecomended);
+
   return (
     <section className="recommendations">
       <h1 className="recommendations__title">Últimas Recomendações</h1>
@@ -39,14 +35,14 @@ const Recommendation = () => {
         effect={"coverflow"}
         navigation
       >
-        {videos.map((video, index) => {
-          const videoId = getVideoId(video.url);
-          const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+        {recommendedVideos.map((video, index) => {
           return (
             <SwiperSlide key={index} className="recommendations__item">
-              <a href={video.url} target="_blank" rel="noopener noreferrer">
-                <img src={thumbnailUrl} alt={video.nome} />
-              </a>
+              <iframe
+                src={video.url.replace("watch?v=", "embed/")}
+                title={video.nome}
+                allowFullScreen
+              />
               <p className="recommendations__item-label">{video.nome}</p>
             </SwiperSlide>
           );

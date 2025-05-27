@@ -5,6 +5,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Main from "../../pages/Main/Main";
 import StudentProfile from "../../pages/StudentProfile/StudentProfile";
+import StudentContent from "../../pages/StudentContent/StudentContent";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/students/:id" element={<StudentProfile />} />
-        <Route path="/students/:id/:contentType" element={<Main />} />
+        <Route path="/students/:id/:contentType" element={<StudentContent />} />
       </Routes>
       <Footer />
     </div>
