@@ -1,0 +1,22 @@
+.fork-tutorial {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.fork-tutorial__first,
+.fork-tutorial__second,
+.fork-tutorial__third,
+.fork-tutorial__fourth {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.fork-tutorial__description {
+  max-width: 720px;
+}
+
+.fork-tutorial__image img {
+  width: 282px;
+}

@@ -8,22 +8,25 @@
 
 .nav__logo {
   width: 275px;
-  height: 102px;
+  height: 100px;
 }
 
-.nav__lists {
-  display: flex;
-  gap: 120px;
-  list-style: none;
-  font-size: 24px;
+.nav__logo:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
-.nav__list {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-}
-.nav__button {
+
+.nav__fork-button {
+  width: 275px;
+  height: 100px;
   font-size: 24px;
   font-weight: 500;
   padding: 10px;
   border-radius: 5px;
   border: none;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+.nav__fork-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }

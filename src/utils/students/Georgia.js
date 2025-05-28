@@ -1,8 +1,8 @@
 export const georgia = {
   id: 4,
   nome: "Georgia Cavallaro",
-  headShotSrc: "../src/assets/georgia_avatar.png",
-  bodyShotSrc: "../src/assets/georgia_body.png",
+  headShotSrc: "../src/assets/avatars/georgia_avatar.png",
+  bodyShotSrc: "../src/assets/avatars/georgia_body.png",
   quote: "Eu não tenho todas as respostas, mas sei exatamente onde buscar.",
   description: [
     {
