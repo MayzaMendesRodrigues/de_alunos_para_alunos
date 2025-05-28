@@ -1,7 +1,7 @@
 export const pedro = {
   id: 5,
-  headShotSrc: "../src/assets/pedro_avatar.png",
-  bodyShotSrc: "../src/assets/pedro_body.png",
+  headShotSrc: "../src/assets/avatars/pedro_avatar.png",
+  bodyShotSrc: "../src/assets/avatars/pedro_body.png",
   nome: "Pedro Henrique",
   quote: "Nada é verdade, tudo é permitido!",
   description: [

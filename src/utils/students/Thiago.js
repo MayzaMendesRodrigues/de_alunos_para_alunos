@@ -1,7 +1,7 @@
 export const thiago = {
   id: 3,
-  headShotSrc: "../src/assets/thiago_avatar.png",
-  bodyShotSrc: "../src/assets/thiago_body.png",
+  headShotSrc: "../src/assets/avatars/thiago_avatar.png",
+  bodyShotSrc: "../src/assets/avatars/thiago_body.png",
   nome: "Thiago Brandão",
   quote: "#TudoPode",
   description: [

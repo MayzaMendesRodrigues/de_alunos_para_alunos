@@ -1,7 +1,7 @@
 export const marcio = {
   id: 2,
-  headShotSrc: "../src/assets/marcio_avatar.png",
-  bodyShotSrc: "../src/assets/marcio_body.png",
+  headShotSrc: "../src/assets/avatars/marcio_avatar.png",
+  bodyShotSrc: "../src/assets/avatars/marcio_body.png",
   nome: "Márcio Martinazzo",
   quote:
     "Existe lógica sem programação, mas não existe programação sem lógica!",

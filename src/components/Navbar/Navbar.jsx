@@ -11,7 +11,12 @@ const Navbar = () => {
         alt=""
         onClick={() => navigate("/")}
       />
-      <button className="nav__button">Quero fazer parte</button>
+      <button
+        className="nav__fork-button"
+        onClick={() => navigate("/fork-tutorial")}
+      >
+        Quero fazer parte
+      </button>
     </nav>
   );
 };
