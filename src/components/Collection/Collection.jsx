@@ -5,19 +5,39 @@ import { cursos } from "../../utils/content/cursos";
 
 import { useState } from "react";
 
+import thumbLeitura from "../../assets/thumb_leitura.png";
+import thumbCurso from "../../assets/thumb_curso.png";
+
 const Collection = () => {
   const [activeFilter, setActiveFilter] = useState("TODOS");
 
-  const limitedVideos = videos
+  const filteredVideos =
+    activeFilter === "TODOS"
+      ? videos
+      : videos.filter((v) => v.subject === activeFilter);
+  const filteredLeitura =
+    activeFilter === "TODOS"
+      ? leitura
+      : leitura.filter((l) => l.subject === activeFilter);
+  const filteredPodcasts =
+    activeFilter === "TODOS"
+      ? podcasts
+      : podcasts.filter((p) => p.subject === activeFilter);
+  const filteredCursos =
+    activeFilter === "TODOS"
+      ? cursos
+      : cursos.filter((c) => c.subject === activeFilter);
+
+  const limitedVideos = filteredVideos
     .slice(0, 3)
     .map((item) => ({ ...item, type: "VIDEO" }));
-  const limitedLeitura = leitura
+  const limitedLeitura = filteredLeitura
     .slice(0, 3)
     .map((item) => ({ ...item, type: "LEITURA" }));
-  const limitedPodcasts = podcasts
+  const limitedPodcasts = filteredPodcasts
     .slice(0, 3)
     .map((item) => ({ ...item, type: "PODCAST" }));
-  const limitedCursos = cursos
+  const limitedCursos = filteredCursos
     .slice(0, 3)
     .map((item) => ({ ...item, type: "CURSO" }));
 
@@ -65,11 +85,7 @@ const Collection = () => {
                 ) : (
                   <a href={item.url} target="_blank" rel="noopener noreferrer">
                     <img
-                      src={
-                        item.type === "LEITURA"
-                          ? "../../assets/thumb_leitura.png"
-                          : "../../assets/thumb_curso.png"
-                      }
+                      src={item.type === "LEITURA" ? thumbLeitura : thumbCurso}
                       alt={item.nome}
                       className="collection__thumbnail"
                     />

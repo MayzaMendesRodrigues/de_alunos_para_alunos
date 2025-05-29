@@ -1,3 +1,7 @@
+.students {
+  margin: 75px 0;
+}
+
 .students__list {
   list-style: none;
   display: grid;
