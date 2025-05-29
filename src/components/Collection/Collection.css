@@ -1,0 +1,122 @@
+.collection {
+  max-width: 1280px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.collection__title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.collection__filters {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.collection__filter {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.collection__filter:hover {
+  background-color: #e0e0e0;
+}
+
+.collection__filter--active {
+  background-color: #4a6bff;
+  color: white;
+}
+
+.collection__scroll-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: #4a6bff #f0f0f0;
+}
+
+.collection__scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.collection__scroll-container::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+.collection__scroll-container::-webkit-scrollbar-thumb {
+  background-color: #4a6bff;
+  border-radius: 10px;
+}
+
+.collection__item {
+  display: flex;
+  min-width: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.collection__item:hover {
+  transform: translateY(-5px);
+}
+
+.collection__iframe {
+  width: 400px;
+  height: 100%;
+  aspect-ratio: 16/9;
+  border: none;
+  border-radius: 50px;
+}
+
+.collection__thumbnail {
+  width: 400px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.collection__item-info {
+  padding: 25px 0 0 25px;
+  flex: 1;
+}
+
+.collection__item-type {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 23px;
+  color: #666;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+
+.collection__item-title {
+  margin: 0;
+  color: azure;
+  font-size: 30px;
+}
+
+.collection__empty {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+}

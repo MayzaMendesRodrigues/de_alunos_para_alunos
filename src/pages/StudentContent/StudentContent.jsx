@@ -4,6 +4,9 @@ import { leitura } from "../../utils/content/leitura";
 import { podcasts } from "../../utils/content/podcasts";
 import { cursos } from "../../utils/content/cursos";
 
+import thumbnailLeitura from "../../assets/thumb_leitura.png";
+import thumbnailCursos from "../../assets/thumb_curso.png";
+
 const StudentContent = () => {
   const { id, contentType } = useParams();
   const studentId = Number(id);
@@ -12,18 +15,24 @@ const StudentContent = () => {
     videos: {
       data: videos,
       title: "Vídeos recomendados",
+      isEmbeddable: true,
     },
     leitura: {
       data: leitura,
       title: "Leitura recomendada",
+      isEmbeddable: false,
+      thumbnail: thumbnailLeitura,
     },
     podcasts: {
       data: podcasts,
       title: "Podcasts recomendados",
+      isEmbeddable: true,
     },
     cursos: {
       data: cursos,
       title: "Cursos recomendados",
+      isEmbeddable: false,
+      thumbnail: thumbnailCursos,
     },
   };
 
@@ -43,12 +52,22 @@ const StudentContent = () => {
       <div className="student-content__list">
         {filtered.map((item, index) => (
           <div className="student-content-item" key={index}>
-            <iframe
-              src={item.url}
-              title={item.nome}
-              className="student-content-item__video"
-              allowFullScreen
-            ></iframe>
+            {selectedContent.isEmbeddable ? (
+              <iframe
+                src={item.url}
+                title={item.nome}
+                className="student-content-item__iframe"
+                allowFullScreen
+              ></iframe>
+            ) : (
+              <a href={item.url} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={selectedContent.thumbnail}
+                  alt={item.nome}
+                  className="student-content-item__thumbnail"
+                />
+              </a>
+            )}
             <p className="student-content-item__name">{item.nome}</p>
           </div>
         ))}

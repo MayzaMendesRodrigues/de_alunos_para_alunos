@@ -8,15 +8,15 @@ import { videos } from "../../utils/content/videos";
 
 const Recommendation = () => {
   // FUNCTION - filtering recommended videos
-  const recommendedVideos = videos.filter((video) => video.isRecomended);
+  const recommendedVideos = videos.filter((video) => video.isRecommended);
 
   return (
     <section className="recommendations">
       <h1 className="recommendations__title">Últimas Recomendações</h1>
       <Swiper
         modules={[Navigation, Autoplay]}
-        spaceBetween={50}
-        slidesPerView={1}
+        spaceBetween={30}
+        slidesPerView={3}
         loop={true}
         autoplay={{
           delay: 3000,

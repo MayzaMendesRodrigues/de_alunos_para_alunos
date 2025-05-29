@@ -3,6 +3,7 @@ export const bruno = {
   headShotSrc: "../src/assets/avatars/bruno_avatar.png",
   bodyShotSrc: "../src/assets/avatars/bruno_body.png",
   nome: "Bruno Souza",
+  linkedin: "https://www.linkedin.com/in/bruno-souza-bs/",
   quote: "Tecnologia não para. E a gente também não",
   description: [
     {

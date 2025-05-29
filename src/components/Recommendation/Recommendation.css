@@ -1,13 +1,13 @@
 .recommendations__item {
-  height: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .recommendations__item iframe {
-  width: 100%;
+  width: 400px;
+  height: auto;
   aspect-ratio: 16/9;
-  border-radius: 8px;
+  border-radius: 50px;
   border: none; /* Mantém a proporção do vídeo */
 }
 

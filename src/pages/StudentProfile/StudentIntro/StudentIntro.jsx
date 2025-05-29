@@ -1,4 +1,4 @@
-import React from "react";
+import arrowLinkedIn from "../../../assets/arrow-link.png";
 
 const FormattedDescription = ({ description }) => {
   if (!description) return null;
@@ -42,9 +42,15 @@ const StudentIntro = ({ student }) => {
   return (
     <div className="student-profile__intro">
       <img
+        src={arrowLinkedIn}
+        alt="LinkedIn"
+        className="student-profile__linkedin-arrow"
+      />
+      <img
         src={student.bodyShotSrc}
         alt={student.nome}
         className="student-profile__avatar"
+        onClick={() => window.open(student.linkedin, "_blank")}
       />
       <h1 className="student-profile__name">{student.nome}</h1>
       <p className="student-profile__quote">"{student.quote}"</p>

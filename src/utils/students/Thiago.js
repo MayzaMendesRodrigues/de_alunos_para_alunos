@@ -2,6 +2,7 @@ export const thiago = {
   id: 3,
   headShotSrc: "../src/assets/avatars/thiago_avatar.png",
   bodyShotSrc: "../src/assets/avatars/thiago_body.png",
+  linkedin: "https://www.linkedin.com/in/tmuniz570/",
   nome: "Thiago Brandão",
   quote: "#TudoPode",
   description: [
