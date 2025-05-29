@@ -5,9 +5,10 @@
 @import url("./pages/Main/Main.css");
 @import url("./components/Recommendation/Recommendation.css");
 @import url("./components/AvatarList/AvatarList.css");
+@import url("./components/Collection/Collection.css");
 @import url("./pages/StudentProfile/StudentProfile.css");
-@import url("./pages/StudentProfile/Intro/Intro.css");
-@import url("./pages/StudentProfile/Setup/Setup.css");
+@import url("./pages/StudentProfile/StudentIntro/StudentIntro.css");
+@import url("./pages/StudentProfile/StudentSetup/StudentSetup.css");
 @import url("./pages/StudentContent/StudentContent.css");
-@import url("./pages/ForkTutorial/ForkTutorial.css");
+@import url("./pages/Fork/Fork.css");
 @import url("./components/Footer/Footer.css");

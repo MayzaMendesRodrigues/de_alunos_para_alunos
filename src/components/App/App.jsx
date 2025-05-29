@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 import Main from "../../pages/Main/Main";
 import StudentProfile from "../../pages/StudentProfile/StudentProfile";
 import StudentContent from "../../pages/StudentContent/StudentContent";
-import ForkTutorial from "../../pages/ForkTutorial/ForkTutorial";
+import ForkTutorial from "../../pages/Fork/Fork";
 
 function App() {
   return (

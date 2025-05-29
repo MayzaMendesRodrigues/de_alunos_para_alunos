@@ -11,8 +11,9 @@
   column-gap: 30px;
 
   max-width: 1024px;
-  padding-top: 50px;
+  padding-top: 150px;
   margin: 0 auto;
+  position: relative;
 }
 
 .student-profile__name {
@@ -20,11 +21,30 @@
   grid-area: title;
 }
 
+.student-profile__linkedin-arrow {
+  position: absolute;
+  width: 283px;
+  height: 161px;
+  left: 235px;
+  top: 60px;
+}
+.student-profile__linkedin {
+  padding: 0;
+  margin: 0;
+}
+
 .student-profile__avatar {
   grid-area: avatar;
   width: 375px;
   height: 600px;
   filter: drop-shadow(0 50px 50px black);
+  object-fit: contain;
+}
+
+.student-profile__avatar:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .student-profile__quote {

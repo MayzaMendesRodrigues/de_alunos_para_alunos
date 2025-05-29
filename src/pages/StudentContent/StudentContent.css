@@ -24,11 +24,17 @@
   align-items: center;
 }
 
-.student-content-item__video {
+.student-content-item__iframe {
   width: 475px;
   height: auto;
   aspect-ratio: 16/9;
   border: none;
+  border-radius: 8px;
+}
+
+.student-content-item__thumbnail {
+  max-width: 475px;
+  height: auto;
   border-radius: 8px;
 }
 

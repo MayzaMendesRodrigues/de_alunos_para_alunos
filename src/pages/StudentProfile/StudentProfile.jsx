@@ -2,8 +2,8 @@ import { useParams } from "react-router-dom";
 import { students } from "../../utils/students/students";
 import { useEffect, useState } from "react";
 
-import StudentIntro from "./Intro/Intro";
-import StudentSetup from "./Setup/Setup";
+import StudentIntro from "./StudentIntro/StudentIntro";
+import StudentSetup from "./StudentSetup/StudentSetup";
 
 const StudentProfile = () => {
   const { id } = useParams();

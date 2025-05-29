@@ -2,6 +2,7 @@ export const mayza = {
   id: 6,
   headShotSrc: "../src/assets/avatars/mayza_avatar.png",
   bodyShotSrc: "../src/assets/avatars/mayza_body.png",
+  linkedin: "https://www.linkedin.com/in/mayza-ynara-mendes-rodrigues/",
   nome: "Mayza Ynara",
   quote:
     "Entre linhas de código e ideias ousadas,  eu construo, soluciono e me reinvento.",

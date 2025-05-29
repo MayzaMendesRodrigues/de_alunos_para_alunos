@@ -3,6 +3,7 @@ export const georgia = {
   nome: "Georgia Cavallaro",
   headShotSrc: "../src/assets/avatars/georgia_avatar.png",
   bodyShotSrc: "../src/assets/avatars/georgia_body.png",
+  linkedin: "https://www.linkedin.com/in/georgia-cavallaro/",
   quote: "Eu não tenho todas as respostas, mas sei exatamente onde buscar.",
   description: [
     {
