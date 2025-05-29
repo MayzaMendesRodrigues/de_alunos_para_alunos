@@ -7,7 +7,6 @@
 .collection__title {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #333;
   font-size: 1.8rem;
 }
 
@@ -80,7 +79,7 @@
 
 .collection__iframe {
   width: 400px;
-  height: 100%;
+  height: auto;
   aspect-ratio: 16/9;
   border: none;
   border-radius: 50px;
@@ -90,6 +89,7 @@
   width: 400px;
   aspect-ratio: 16/9;
   object-fit: cover;
+  border-radius: 50px;
 }
 
 .collection__item-info {
@@ -113,6 +113,7 @@
   margin: 0;
   color: azure;
   font-size: 30px;
+  white-space: normal;
 }
 
 .collection__empty {
