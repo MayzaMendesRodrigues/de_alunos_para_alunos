@@ -9,85 +9,90 @@ const ForkTutorial = () => {
     <section className="fork-tutorial">
       <h1>O Poder da Comunidade no GitHub:</h1>
       <h2>A força por trás do Fork</h2>
-      <div className="fork-tutorial__first">
-        <div className="fork-tutorial__description">
-          {forkTutorial.firstDescription.map((block, index) => {
-            if (block.type === "highlight") {
-              return <h3 key={index}>{block.text}</h3>;
-            }
-            if (block.type === "paragraph") {
-              return <p key={index}>{block.text}</p>;
-            }
-            return null;
-          })}
+      <div className="fork-tutorial__definition">
+        <div className="fork-tutorial__first">
+          <div className="fork-tutorial__description">
+            {forkTutorial.firstDescription.map((block, index) => {
+              if (block.type === "highlight") {
+                return <h3 key={index}>{block.text}</h3>;
+              }
+              if (block.type === "paragraph") {
+                return <p key={index}>{block.text}</p>;
+              }
+              return null;
+            })}
+          </div>
+          <div className="fork-tutorial__image">
+            <img
+              src={group1}
+              alt="Git x GitHub: Qual a Diferença?"
+              className="fork-tutorial__image__img"
+            />
+          </div>
         </div>
-        <div className="fork-tutorial__image">
-          <img
-            src={group1}
-            alt="Git x GitHub: Qual a Diferença?"
-            className="fork-tutorial__image__img"
-          />
+        <div className="fork-tutorial__second">
+          <div className="fork-tutorial__image">
+            <img
+              src={forkLogo}
+              alt="Fork Tutorial"
+              className="fork-tutorial__image__img"
+            />
+          </div>
+          <div className="fork-tutorial__description">
+            {forkTutorial.secondDescription.map((block, index) => {
+              if (block.type === "highlight") {
+                return <h3 key={index}>{block.text}</h3>;
+              }
+              if (block.type === "paragraph") {
+                return <p key={index}>{block.text}</p>;
+              }
+              return null;
+            })}
+          </div>
+        </div>
+        <div className="fork-tutorial__third">
+          <div className="fork-tutorial__description">
+            {forkTutorial.thirdDescription.map((block, index) => {
+              if (block.type === "highlight") {
+                return <h3 key={index}>{block.text}</h3>;
+              }
+              if (block.type === "paragraph") {
+                return <p key={index}>{block.text}</p>;
+              }
+              return null;
+            })}
+          </div>
+          <div className="fork-tutorial__image">
+            <img
+              src={group3}
+              alt="Group 3"
+              className="fork-tutorial__image__img"
+            />
+          </div>
+        </div>
+        <div className="fork-tutorial__fourth">
+          <div className="fork-tutorial__image">
+            <img
+              src={group4}
+              alt="Group 4"
+              className="fork-tutorial__image__img"
+            />
+          </div>
+          <div className="fork-tutorial__description">
+            {forkTutorial.fourthDescription.map((block, index) => {
+              if (block.type === "highlight") {
+                return <h3 key={index}>{block.text}</h3>;
+              }
+              if (block.type === "paragraph") {
+                return <p key={index}>{block.text}</p>;
+              }
+              return null;
+            })}
+          </div>
         </div>
       </div>
-      <div className="fork-tutorial__second">
-        <div className="fork-tutorial__image">
-          <img
-            src={forkLogo}
-            alt="Fork Tutorial"
-            className="fork-tutorial__image__img"
-          />
-        </div>
-        <div className="fork-tutorial__description">
-          {forkTutorial.secondDescription.map((block, index) => {
-            if (block.type === "highlight") {
-              return <h3 key={index}>{block.text}</h3>;
-            }
-            if (block.type === "paragraph") {
-              return <p key={index}>{block.text}</p>;
-            }
-            return null;
-          })}
-        </div>
-      </div>
-      <div className="fork-tutorial__third">
-        <div className="fork-tutorial__description">
-          {forkTutorial.thirdDescription.map((block, index) => {
-            if (block.type === "highlight") {
-              return <h3 key={index}>{block.text}</h3>;
-            }
-            if (block.type === "paragraph") {
-              return <p key={index}>{block.text}</p>;
-            }
-            return null;
-          })}
-        </div>
-        <div className="fork-tutorial__image">
-          <img
-            src={group3}
-            alt="Group 3"
-            className="fork-tutorial__image__img"
-          />
-        </div>
-      </div>
-      <div className="fork-tutorial__fourth">
-        <div className="fork-tutorial__image">
-          <img
-            src={group4}
-            alt="Group 4"
-            className="fork-tutorial__image__img"
-          />
-        </div>
-        <div className="fork-tutorial__description">
-          {forkTutorial.fourthDescription.map((block, index) => {
-            if (block.type === "highlight") {
-              return <h3 key={index}>{block.text}</h3>;
-            }
-            if (block.type === "paragraph") {
-              return <p key={index}>{block.text}</p>;
-            }
-            return null;
-          })}
-        </div>
+      <div className="fork-tutorial__steps">
+        <h3>EM DESENVOLVIMENTO...</h3>
       </div>
     </section>
   );
