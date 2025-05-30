@@ -20,3 +20,9 @@
 .fork-tutorial__image img {
   width: 282px;
 }
+
+.fork-tutorial__steps {
+  text-align: center;
+  padding: 150px 0;
+  border: 7px solid #e0e0e0;
+}
