@@ -92,7 +92,7 @@ const ForkTutorial = () => {
         </div>
       </div>
       <div className="fork-tutorial__steps">
-        <h3>EM DESENVOLVIMENTO...</h3>
+        <h3>EM DESENVOLVIMENTO... TESTE</h3>
       </div>
     </section>
   );
