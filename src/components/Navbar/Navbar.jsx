@@ -9,7 +9,7 @@ const Navbar = () => {
         className="nav__logo"
         src={navLogo}
         alt=""
-        onClick={() => navigate("/de_alunos_para_alunos")}
+        onClick={() => navigate("/de_alunos_para_alunos/")}
       />
       <button
         className="nav__fork-button"
