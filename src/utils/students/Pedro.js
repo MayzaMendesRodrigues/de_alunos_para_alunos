@@ -1,7 +1,10 @@
+import avatar from "../../assets/avatars/pedro_avatar.png";
+import body from "../../assets/avatars/pedro_body.png";
+
 export const pedro = {
   id: 5,
-  headShotSrc: "../src/assets/avatars/pedro_avatar.png",
-  bodyShotSrc: "../src/assets/avatars/pedro_body.png",
+  headShotSrc: avatar,
+  bodyShotSrc: body,
   linkedin: "https://www.linkedin.com/in/phendges7/",
   nome: "Pedro Henrique",
   quote: "Nada é verdade, tudo é permitido!",

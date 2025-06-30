@@ -1,7 +1,10 @@
+import avatar from "../src/assets/avatars/mayza_avatar.png";
+import body from "../src/assets/avatars/mayza_body.png";
+
 export const mayza = {
   id: 6,
-  headShotSrc: "../src/assets/avatars/mayza_avatar.png",
-  bodyShotSrc: "../src/assets/avatars/mayza_body.png",
+  headShotSrc: avatar,
+  bodyShotSrc: body,
   linkedin: "https://www.linkedin.com/in/mayza-ynara-mendes-rodrigues/",
   nome: "Mayza Ynara",
   quote:

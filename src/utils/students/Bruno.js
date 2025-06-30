@@ -1,7 +1,10 @@
+import avatar from "../src/assets/avatars/bruno_avatar.png";
+import body from "../src/assets/avatars/bruno_body.png";
+
 export const bruno = {
   id: 1,
-  headShotSrc: "../src/assets/avatars/bruno_avatar.png",
-  bodyShotSrc: "../src/assets/avatars/bruno_body.png",
+  headShotSrc: avatar,
+  bodyShotSrc: body,
   nome: "Bruno Souza",
   linkedin: "https://www.linkedin.com/in/bruno-souza-bs/",
   quote: "Tecnologia não para. E a gente também não",

@@ -1,7 +1,10 @@
+import avatar from "../src/assets/avatars/thiago_avatar.png";
+import body from "../src/assets/avatars/thiago_body.png";
+
 export const thiago = {
   id: 3,
-  headShotSrc: "../src/assets/avatars/thiago_avatar.png",
-  bodyShotSrc: "../src/assets/avatars/thiago_body.png",
+  headShotSrc: avatar,
+  bodyShotSrc: body,
   linkedin: "https://www.linkedin.com/in/tmuniz570/",
   nome: "Thiago Brandão",
   quote: "#TudoPode",
