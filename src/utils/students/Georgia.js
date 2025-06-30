@@ -1,5 +1,5 @@
-import avatar from "../src/assets/avatars/georgia_avatar.png";
-import body from "../src/assets/avatars/georgia_body.png";
+import avatar from "../../assets/avatars/georgia_avatar.png";
+import body from "../../assets/avatars/georgia_body.png";
 
 export const georgia = {
   id: 4,
