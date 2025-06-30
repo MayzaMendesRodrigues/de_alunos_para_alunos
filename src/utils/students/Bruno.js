@@ -1,5 +1,5 @@
-import avatar from "../src/assets/avatars/bruno_avatar.png";
-import body from "../src/assets/avatars/bruno_body.png";
+import avatar from "../../assets/avatars/bruno_avatar.png";
+import body from "../../assets/avatars/bruno_body.png";
 
 export const bruno = {
   id: 1,

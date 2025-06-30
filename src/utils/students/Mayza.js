@@ -1,5 +1,5 @@
-import avatar from "../src/assets/avatars/mayza_avatar.png";
-import body from "../src/assets/avatars/mayza_body.png";
+import avatar from "../../assets/avatars/mayza_avatar.png";
+import body from "../../assets/avatars/mayza_body.png";
 
 export const mayza = {
   id: 6,
