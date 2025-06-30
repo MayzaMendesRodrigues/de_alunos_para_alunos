@@ -13,7 +13,7 @@ function App() {
     <div className="page">
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/de_alunos_para_alunos" element={<Main />} />
         <Route path="/students/:id" element={<StudentProfile />} />
         <Route path="/students/:id/:contentType" element={<StudentContent />} />
         <Route path="/fork-tutorial" element={<ForkTutorial />} />
