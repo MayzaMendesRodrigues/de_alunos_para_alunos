@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://phendges7.github.io/de_alunos_para_alunos",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
