@@ -1,7 +1,10 @@
+import avatar from "../src/assets/avatars/marcio_avatar.png";
+import body from "../src/assets/avatars/marcio_body.png";
+
 export const marcio = {
   id: 2,
-  headShotSrc: "../src/assets/avatars/marcio_avatar.png",
-  bodyShotSrc: "../src/assets/avatars/marcio_body.png",
+  headShotSrc: avatar,
+  bodyShotSrc: body,
   linkedin: "https://www.linkedin.com/in/m%C3%A1rcio-martinazzo-mba-66b42713/",
   nome: "Márcio Martinazzo",
   quote:
